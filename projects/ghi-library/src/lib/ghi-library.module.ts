@@ -4,6 +4,8 @@ import { HomePageComponent } from './component/home-page/home-page.component';
 import { HomeItemComponent } from './component/home-item/home-item.component';
 import { SettingPageComponent } from './component/setting-page/setting-page.component';
 import { SettingItemComponent } from './component/setting-item/setting-item.component';
+import { DetailPageComponent } from './component/detail-page/detail-page.component';
+import { DetailItemComponent } from './component/detail-item/detail-item.component';
 
 let components = [
   GhiLibraryComponent,
@@ -11,6 +13,8 @@ let components = [
   HomeItemComponent,
   SettingPageComponent,
   SettingItemComponent,
+  DetailPageComponent,
+  DetailItemComponent,
 ]
 
 @NgModule({
