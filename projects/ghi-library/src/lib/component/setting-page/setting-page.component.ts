@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SettingPageComponent implements OnInit {
 
+  title = 'Setting Page'
+  context = 'This is a setting page'
+
   constructor() { }
 
   ngOnInit(): void {
