@@ -8,7 +8,7 @@ import { SettingPageComponent } from 'projects/ghi-library/src/lib/component/set
 })
 export class SettingCustomAbcPageComponent extends SettingPageComponent {
 
-  override title = 'Setting Page ProjectABC';
+  override title = 'Setting Page ProjectABC 實現 page js 替換';
 
   constructor() {
     super();
