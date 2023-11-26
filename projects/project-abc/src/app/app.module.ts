@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GhiLibraryModule } from 'projects/ghi-library/src/lib/ghi-library.module';
 import { SettingCustomAbcPageComponent } from './component/setting-custom-abc-page/setting-custom-abc-page.component';
+import { DetailABCCustomItemComponent } from './component/detail-abccustom-item/detail-abccustom-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SettingCustomAbcPageComponent
+    SettingCustomAbcPageComponent,
+    DetailABCCustomItemComponent
   ],
   imports: [
     BrowserModule,

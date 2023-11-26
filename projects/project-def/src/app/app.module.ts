@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GhiLibraryModule } from 'projects/ghi-library/src/lib/ghi-library.module';
 import { SettingCustomDefPageComponent } from './component/setting-custom-def-page/setting-custom-def-page.component';
+import { DetailDEFCustomItemComponent } from './component/detail-defcustom-item/detail-defcustom-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SettingCustomDefPageComponent
+    SettingCustomDefPageComponent,
+    DetailDEFCustomItemComponent
   ],
   imports: [
     BrowserModule,
