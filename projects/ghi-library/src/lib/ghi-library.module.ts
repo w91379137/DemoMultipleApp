@@ -6,6 +6,7 @@ import { SettingPageComponent } from './component/setting-page/setting-page.comp
 import { SettingItemComponent } from './component/setting-item/setting-item.component';
 import { DetailPageComponent } from './component/detail-page/detail-page.component';
 import { DetailItemComponent } from './component/detail-item/detail-item.component';
+import { CommonModule } from '@angular/common';
 
 let components = [
   GhiLibraryComponent,
@@ -20,6 +21,7 @@ let components = [
 @NgModule({
   declarations: components,
   imports: [
+    CommonModule
   ],
   exports: components
 })
