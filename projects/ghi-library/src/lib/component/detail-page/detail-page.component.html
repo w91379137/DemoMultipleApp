@@ -1,4 +1,7 @@
-<p>detail-page works!</p>
+<p class="Title">detail-page works! LIB</p>
 
-<ng-container *ngComponentOutlet="Item"></ng-container>
+<ng-container
+  [ngComponentOutlet]='Item'
+  [ngComponentOutletInjector]="myInjector"
+></ng-container>
 

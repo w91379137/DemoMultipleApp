@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { GhiLibraryModule } from 'projects/ghi-library/src/lib/ghi-library.module';
 import { SettingCustomAbcPageComponent } from './component/setting-custom-abc-page/setting-custom-abc-page.component';
 import { DetailABCCustomItemComponent } from './component/detail-abccustom-item/detail-abccustom-item.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { DetailABCCustomItemComponent } from './component/detail-abccustom-item/
     DetailABCCustomItemComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     GhiLibraryModule

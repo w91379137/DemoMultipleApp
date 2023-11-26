@@ -1,4 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Injectable, Input, OnInit } from '@angular/core';
+
+@Injectable()
+export class Detail {
+  text = 'default text';
+}
 
 @Component({
   selector: 'ghi-detail-item',
@@ -7,7 +12,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailItemComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public detail: Detail
+  ) { }
 
   ngOnInit(): void {
   }

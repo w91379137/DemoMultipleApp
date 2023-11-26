@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Detail } from 'projects/ghi-library/src/lib/component/detail-item/detail-item.component';
 
 @Component({
   selector: 'app-detail-defcustom-item',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailDEFCustomItemComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public detail: Detail,
+  ) { }
 
   ngOnInit(): void {
   }

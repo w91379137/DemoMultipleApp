@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { GhiLibraryModule } from 'projects/ghi-library/src/lib/ghi-library.module';
 import { SettingCustomDefPageComponent } from './component/setting-custom-def-page/setting-custom-def-page.component';
 import { DetailDEFCustomItemComponent } from './component/detail-defcustom-item/detail-defcustom-item.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { DetailDEFCustomItemComponent } from './component/detail-defcustom-item/
     DetailDEFCustomItemComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     GhiLibraryModule
