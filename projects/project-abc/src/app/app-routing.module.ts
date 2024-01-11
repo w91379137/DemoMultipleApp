@@ -9,9 +9,12 @@ import { DetailABCCustomItemComponent } from './component/detail-abccustom-item/
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomePageComponent },
+
   { path: 'setting', component: SettingPageComponent },
   { path: 'setting_custom', component: SettingCustomAbcPageComponent },
+
   { path: 'detail', component: DetailPageComponent, data: { item: DetailABCCustomItemComponent } },
+  { path: 'detail2', component: DetailPageComponent },
 ];
 
 @NgModule({
