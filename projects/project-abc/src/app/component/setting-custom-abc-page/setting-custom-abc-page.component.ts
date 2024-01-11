@@ -10,8 +10,4 @@ export class SettingCustomAbcPageComponent extends SettingPageComponent {
 
   override title = 'Setting Page ProjectABC 實現 page js 替換';
 
-  constructor() {
-    super();
-  }
-
 }

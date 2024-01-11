@@ -10,8 +10,4 @@ export class SettingCustomDefPageComponent extends SettingPageComponent {
 
   override title = 'Setting Page ProjectDEF 實現 page js 替換';
 
-  constructor() {
-    super();
-  }
-
 }
